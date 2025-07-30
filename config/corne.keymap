@@ -98,7 +98,7 @@
 
         escape {
             bindings = <&kp ESC>;
-            key-positions = <1 2>;
+            key-positions = <25 26>;
         };
 
         bootloader {
