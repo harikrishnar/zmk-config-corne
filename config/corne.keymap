@@ -136,7 +136,7 @@
         quick_layer {
             bindings = <
 &trans      &none             &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &mmv MOVE_UP  &mmv MOVE_DOWN    &mkp LCLK          &mkp RCLK                &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp RG(MINUS)     &kp RG(EQUAL)
-&mo 3       &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT     &kp LEFT_GUI  &none             &kp RA(RC(LEFT))   &kp RA(RC(RIGHT_ARROW))  &kp C_VOL_DN     &kp C_BRIGHTNESS_DEC  &kp C_PLAY_PAUSE  &kp RC(MINUS)
+&mo 3       &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT     &kp LEFT_GUI  &kp G             &kp RA(RC(LEFT))   &kp RA(RC(RIGHT_ARROW))  &kp C_VOL_DN     &kp C_BRIGHTNESS_DEC  &kp C_PLAY_PAUSE  &kp RC(MINUS)
 &caps_word  &trans            &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_DOWN    &kp RA(RC(ENTER))  &kp K_MUTE               &kp C_PREV       &kp C_NEXT            &trans            &trans
                                               &kp LEFT_GUI     &trans        &to 0             &to 0              &trans                   &trans
             >;
